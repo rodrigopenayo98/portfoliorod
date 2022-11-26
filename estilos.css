@@ -655,7 +655,7 @@ html{
 
 
 .contacto{
-    background-image: url(.contact_bg.png);
+    background-image: url(./contact_bg.png);
     background-color: #00060b;
     color: #fff;
     padding: 50px 0;
