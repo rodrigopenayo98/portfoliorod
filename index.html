@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Rod.</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="./logo2.png">
+</head>
+
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href>Rod.</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" class="itemcv" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="me4.jpg" alt="">
+            </div>
+            <h1>RODRIGO PENAYO</h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MI</h2>
+            <p><span>Hola! Soy Rodrigo Penayo.</span> 
+                Soy un estudiante de programación, tengo 24 años de edad nacido en la
+                ciudad de Presidencia Roque Sáenz Peña - Chaco.
+                Puedo hablar en Inglés y desenvolverme sin inconvenientes trabajando en grupo, realicé varios proyectos relacionados con el desarrollo web los cuales estarán adjuntos en mi portfolio, comprendo y se desenvolverme con varios lenguajes.  
+            </p>
+            <div class="fila">
+             <!--DATOS PERSONALES-->
+             <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        8-9-1998
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        +54 9 3644128650
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        rodrip0129@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Calle 00 E 1 y 3 Reserva Este
+                    </li>    
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>FREELANCE</span>
+                    </li>    
+                </ul>
+             </div>
+
+
+               <!--INTERES-->
+             <div class="col">
+                <h3>Interes</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>DEPORTES</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOS</span>
+                    </div>
+
+                </div>
+             </div>
+
+
+            </div>
+
+            <button>
+                <a target="_blank" download="CV-RODRIGO-PENAYO." href="./CV-RODRIGO-PENAYO-DESARROLLO-WEB.pdf">
+                    Descargar CV <i class="fa-solid fa-download"></i>  
+                <span class="overlay"></span>      
+                </a>
+               
+            </button>
+
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                 <!--TECHNICAL SKILLS-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>REACT JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>MYSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!--PROFESIONAL SKILLS-->
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>93%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>EDUCACIÓN SECUNDARIA (TÉCNICA)</h4>
+                        <span class="casa">E. E. T. Nª 22 "TENIENTE BENJAMÍN MATIENZO" (CHACO).</span>
+                        <span class="fecha">2012 - 2017</span>
+                        <p>TITULO: MAESTRO MAYOR DE OBRAS.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>ENGLISH</h4>
+                        <span class="casa">RAPID SPEAK: INSTITUTO DE LENGUA INGLESA (MENDOZA).</span>
+                        <span class="fecha">2020</span>
+                        <p>CURSO INTENSIV0 ORIENTADO EN LENGUA INGLESA</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>FULL STUCK DEVELOPER</h4>
+                        <span class="casa">SOY HENRY</span>
+                        <span class="fecha">2022</span>
+                        <p>HENRY: CURSO ORIENTADO AL DESARROLLO WEB FULL STUCK.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>DIBUJANTE / PROYECTISTA</h4>
+                        <span class="casa">SAMEEP</span>
+                        <span class="fecha">2017</span>
+                        <p>Me desempeñé realizando Relevamientos y Diseños de Obras.
+                            Proyección y Dibujo de Planos con distintas herramientas informáticas</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>ASESOR</h4>
+                        <span class="casa">ATENTO ARGENTINA</span>
+                        <span class="fecha">2018</span>
+                        <p>Mi función consistía en la atención al publico de manera telefónica, brindando información a cada beneficiario de ANSES que solicite saber como llevar a cabo distintos tramites que competen a ese organismo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>RECEPCIONISTA / ENCARGADO.</h4>
+                        <span class="casa">INSTALADORA PELIGROSOM</span>
+                        <span class="fecha">2022</span>
+                        <p> TAREAS DESEMPEÑADAS:
+                             Atención al cliente / Asesor.
+                            Administración / Elaboración de Facturas y Presupuestos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./portfolio-nick/img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./portfolio-nick/img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./portfolio-nick/img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./portfolio-nick/img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./portfolio-nick/img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./portfolio-nick/img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--SECCION CONTACTO-->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                     <input type="text" placeholder="Tú Nombre">
+                     <input type="text" placeholder="Número Telefónico">
+                     <input type="text" placeholder="Dirección de Correo">
+                     <input type="text" placeholder="Tema">
+                     <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                     <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                     </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                   <img src="./portfolio-nick/img/ubicacion.png" alt="">
+                   <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Presidencia Roque Sáenz Peña - Chaco
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            +5493644128650
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: rodrip0129@gmail.com
+                        </li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--Footer-->
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+     </footer>
+
+     <script src="script.js"></script>
+
+</body>
+
+</html>
