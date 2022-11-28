@@ -364,17 +364,20 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!--Formulario-->
-                <div class="col">
-                     <input type="text" placeholder="Tú Nombre">
-                     <input type="text" placeholder="Número Telefónico">
-                     <input type="text" placeholder="Dirección de Correo">
-                     <input type="text" placeholder="Tema">
-                     <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                     <button>
+                <form class="col" id="form" action="https://formspree.io/f/xyyvabjj"
+                method="POST">
+                     <input name="Nombre" type="text" placeholder="Tú Nombre">
+                     <input name="Numero Telefónico" type="text" placeholder="Número Telefónico">
+                     <input name="Correo" type="text" placeholder="Dirección de Correo">
+                     <input name="Asunto" type="text" placeholder="Asunto">
+                     <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                     <button type="submit">
                         Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                      </button>
-                </div>
+                </form>
+                
+
                 <!--Mapa-->
                 <div class="col">
                    <img src="./ubicacion.png" alt="">
