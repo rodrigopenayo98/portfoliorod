@@ -60,7 +60,8 @@ async function handleSubmit(event){
     }
  })
  if(response.ok){
-    alert("Gracias por contactarme!");
     this.reset()
- }
+    alert("Gracias por contactarme!");
+  }
 }
+
